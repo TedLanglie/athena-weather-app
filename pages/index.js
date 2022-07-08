@@ -52,7 +52,7 @@ export default function Home() {
       {/* Heading */}
         <div className='relative flex justify-between items-center max-w-[300px] w-full m-auto pt-4 text-7xl font-bold text-white z-10'>
         <Image
-            src='/../public/assets/trident.png'
+            src={"/static/img/trident.png"}
             alt='/'
             width='75'
             height='75'
@@ -105,7 +105,7 @@ export default function Home() {
                       <Link href='https://www.linkedin.com/in/theodore-langlie-b75238240/'>
                           <li className='flex relative ml-10 text-sm uppercase hover:bg-blue-600 hover:rounded-md cursor-pointer'>
                           <Image
-                              src='/../public/assets/Linkedin.png'
+                              src={"/static/img/Linkedin.png"}
                               alt='/'
                               width='30'
                               height='30'
@@ -116,7 +116,7 @@ export default function Home() {
                       <Link href='https://github.com/TedLanglie'>
                           <li className='flex relative ml-10 text-sm uppercase hover:bg-blue-600 hover:rounded-md cursor-pointer'>
                           <Image
-                              src='/../public/assets/github.png'
+                              src={"/static/img/github.png"}
                               alt='/'
                               width='30'
                               height='30'
