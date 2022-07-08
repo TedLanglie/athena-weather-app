@@ -14,7 +14,7 @@ const Weather = ({data}) => {
                     />
                     <p className='text-2xl'>{data.weather[0].main}</p>
                 </div>
-                <p className='text-9xl'>{data.main.temp.toFixed(0)}&#176;C</p>
+                <p className='text-9xl'>{data.main.temp.toFixed(0)}&#176;K</p>
             </div>
 
             <div className='bg-black/25 relative p-8 rounded-md'>
